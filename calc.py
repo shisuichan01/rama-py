@@ -12,10 +12,10 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("1.Pertambahan")
+print("2.Pengurangan")
+print("3.Perkalian")
+print("4.Pembagian")
 # Take input from the user
 choice = input("Enter choice(1/2/3/4):")
 num1 = int(input("Enter first number: "))
