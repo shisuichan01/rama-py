@@ -18,8 +18,8 @@ print("3.Perkalian")
 print("4.Pembagian")
 # Take input from the user
 choice = input("Enter choice(1/2/3/4):")
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(input("Masukkan angka pertama: "))
+num2 = int(input("Masukkan angka kedua: "))
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
 elif choice == '2':
